@@ -1,48 +1,185 @@
-# curriculum-databases-projects-template
+<a name="readme-top"></a>
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Vet Clinic Database</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Vet Clinic Database\] ](#-vet-clinic-database-)
+  - [🛠 Built With Postgresql](#-built-with-postgresql)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Vet Clinic Database] <a name="about-project"></a>
+
+> A relational database for a vet clinic
+
+**[Vet Clinic Database]** is a relational database for a vet clinic with data about animals, animals' owners, clinic employees and visits.
+
+## 🛠 Built With <a name="built-with">Postgresql</a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+  <li><a href="https://www.postgresql.org/">Postgresql</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
 
 
-## Getting Started
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This repository includes files with plain SQL that can be used to recreate a database:
+<!-- GETTING STARTED -->
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+run the following commands in your terminal
+
+### Prerequisites
+
+In order to run this project you need:
+
+You need to have node installed
+
+### Setup
+
+Clone this repository to your desired folder:
+
+- git clone https://github.com/JonahKayizzi/vet-clinic-database.git
+- cd vet-clinic-database
+
+### Install
+
+Install this project with:
 
 
-## Authors
+### Usage
+
+To run the project, execute the following command:
+
+
+### Run tests
+
+To run tests, run the following command:
+
+
+### Deployment
+
+You can deploy this project using:
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@JonahKayizzi](https://github.com/JonahKayizzi)
+- Twitter: [@JonahKayizzi](https://twitter.com/JonahKayizzi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jonathan-kayizzi/)
 
-👤 **Author2**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+<!-- FUTURE FEATURES -->
 
-## 🤝 Contributing
+## 🔭 Future Features <a name="future-features"></a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/JonahKayizzi/vet-clinic-database/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+If you like this project, please leave star
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./MIT.md) licensed.
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
