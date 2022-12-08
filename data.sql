@@ -6,7 +6,7 @@ INSERT INTO animals (
         neutered,
         weight_kg
     )
-VALUES ('Agumon', 'Feb 3, 2020', 0, '1', 10.23);
+VALUES ('Agumon', 'Feb 3, 2020', 0, true, 10.23);
 INSERT INTO animals (
         name,
         date_of_birth,
@@ -14,7 +14,7 @@ INSERT INTO animals (
         neutered,
         weight_kg
     )
-VALUES ('Gabumon', 'Nov 15, 2018', 2, '1', 8);
+VALUES ('Gabumon', 'Nov 15, 2018', 2, true, 8);
 INSERT INTO animals (
         name,
         date_of_birth,
@@ -22,7 +22,7 @@ INSERT INTO animals (
         neutered,
         weight_kg
     )
-VALUES ('Pikachu', 'Jan 7, 2021', 1, '0', 15.04);
+VALUES ('Pikachu', 'Jan 7, 2021', 1, false, 15.04);
 INSERT INTO animals (
         name,
         date_of_birth,
@@ -30,4 +30,4 @@ INSERT INTO animals (
         neutered,
         weight_kg
     )
-VALUES ('Devimon', 'May 12, 2017', 5, '1', 11);
+VALUES ('Devimon', 'May 12, 2017', 5, true, 11);
