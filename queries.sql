@@ -105,13 +105,6 @@ FROM animals a
     JOIN owners o ON a.owner_id = o.id
 WHERE a.escape_attempts = 0
     AND o.full_name = 'Dean Winchester';
-SELECT o.full_name,
-    COUNT (a.name) AS animal_number
-FROM owners o
-    LEFT JOIN animals a ON o.id = a.owner_id
-GROUP BY o.full_name
-ORDER BY animal_number DESC
-LIMIT 1;
 SELECT combined.full_name
 FROM (
         SELECT o.full_name,
