@@ -88,6 +88,7 @@ INSERT INTO animals (
         neutered,
         weight_kg
     )
+
 VALUES ('Ditto', 'May 14, 2022', 4, true, 22);
 /* Project - query multiple tables */
 INSERT INTO owners (full_name, age)

@@ -1,5 +1,4 @@
 /* Database schema to keep the structure of entire database. */
-/* Project - create animals table. */
 CREATE TABLE animals(
     id INT GENERATED ALWAYS AS IDENTITY,
     name VARCHAR(50),
@@ -9,7 +8,6 @@ CREATE TABLE animals(
     weight_kg DECIMAL,
     PRIMARY KEY(id)
 );
-/* Project - query and update animals table */
 ALTER TABLE animals
 ADD species VARCHAR(50);
 /* Project - query multiple tables */
