@@ -88,7 +88,6 @@ INSERT INTO animals (
         neutered,
         weight_kg
     )
-
 VALUES ('Ditto', 'May 14, 2022', 4, true, 22);
 /* Project - query multiple tables */
 INSERT INTO owners (full_name, age)
@@ -477,3 +476,18 @@ VALUES (
         ),
         'Jan 11, 2021'
     );
+/* database performance audit */
+INSERT INTO visits (animal_id, vet_id, date_of_visit)
+SELECT *
+FROM (
+        SELECT id
+        FROM animals
+    ) animal_ids,
+    (
+        SELECT id
+        FROM vets
+    ) vets_ids,
+    generate_series('1980-01-01'::timestamp, '2021-01-01', '4 hours') visit_timestamp;
+insert into owners (full_name, email)
+select 'Owner ' || generate_series(1, 2500000),
+    'owner_' || generate_series(1, 2500000) || '@mail.com';
